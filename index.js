@@ -35,15 +35,6 @@ app.get('/dynamicimage',(req,res) => {
     })
     .catch(err => console.log('Error:', err))
 })
-//fetch('download.png', { method: 'HEAD' })
-  //.then(res => {
-    //if (res.ok) {
-     // console.log('Image exists.')
-    //} else {
-    //  console.log('Image does not exist.')
-    //}
- // })
- // .catch(err => console.log('Error:', err))
 
     
 app.listen(port,()=> {
